@@ -4,7 +4,7 @@
 $(document).ready(function(){
     anime({
         targets: '.modal',
-        translateY: 100
+        translateY: 50
     });
     
     //startanimate();
