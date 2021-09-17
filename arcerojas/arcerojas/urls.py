@@ -22,6 +22,7 @@ urlpatterns = [
     path('Cliente/', include(('Cliente.urls', 'Cliente'), namespace='Persona')),
     path('Predio/', include(('Predio.urls', 'Predio'), namespace='Predio')),
     path('Propietario/', include(('Propietario.urls', 'Propietario'), namespace='Propietario')),
+    path('Busqueda/', include(('consulta.urls', 'Consulta'), namespace='Consulta')),
    
     
 ]

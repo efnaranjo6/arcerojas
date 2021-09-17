@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'TipoCliente',
     'TipoGeografia',
     'TipoIdentificacion',
+    'consulta',
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
