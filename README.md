@@ -14,7 +14,8 @@ Pasos para instalar el sistema
 
 Entrar al contenedor para realizar las migraciones 
 - docker exec -ti ddb /bin/bash
-  
+
+Insertar las siguientes consultas en pgAdmin o en el IDE de gestor de BD que prefiera   
 - Consultas sql 
     - INSERT INTO public."TipoCliente_tipocliente"(nombre)VALUES ('Empresa');
     - INSERT INTO public."TipoCliente_tipocliente"(nombre)VALUES ('Persona');
