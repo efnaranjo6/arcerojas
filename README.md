@@ -7,7 +7,7 @@ Pasos para instalar el sistema
 - docker-compose build
 - compose-compose up(talvez pueda repetir este paso dos veces dependiendo de las configuraciones de su entorno)
 
-Entrar al contenedor para realizar las mugraciones 
+Entrar al contenedor para realizar las migraciones 
 - docker exec -ti ddb /bin/bash
   
 - Consultas sql 
